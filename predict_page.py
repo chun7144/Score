@@ -4,7 +4,7 @@ import numpy as np
 
 
 def load_model():
-    with open('saved_model.pkl', 'rb') as file:
+    with open('./saved_model.pkl', 'rb') as file:
         ScoreML_loaded = pickle.load(file)
     return ScoreML_loaded
 
